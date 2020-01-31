@@ -1,6 +1,6 @@
 <h1>Font Material Icons</h1>
 
-> Version 3 – the iconic SVG, font, and CSS framework
+> Material Design icons by Google Version 3 – the iconic SVG, font, and CSS framework
 
 The internet's most popular icon toolkit has been redesigned and built from
 scratch. On top of this, features like icon font ligatures, an SVG framework,
