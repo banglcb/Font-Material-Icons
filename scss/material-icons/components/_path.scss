@@ -1,0 +1,20 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: $mi-font-display;
+  src: url(if($mi-sass-asset-helper, mi-font-path('#{$mi-font-path}/material-icons.eot'), '#{$mi-font-path}/material-icons.eot'));
+  src: url(if($mi-sass-asset-helper, mi-font-path('#{$mi-font-path}/material-icons.eot#iefix'), '#{$mi-font-path}/material-icons.eot#iefix')) format('embedded-opentype'),
+  url(if($mi-sass-asset-helper, mi-font-path('#{$mi-font-path}/material-icons.woff2'), '#{$mi-font-path}/material-icons.woff2')) format('woff2'),
+  url(if($mi-sass-asset-helper, mi-font-path('#{$mi-font-path}/material-icons.woff'), '#{$mi-font-path}/material-icons.woff')) format('woff'),
+  url(if($mi-sass-asset-helper, mi-font-path('#{$mi-font-path}/material-icons.ttf'), '#{$mi-font-path}/material-icons.ttf')) format('truetype'),
+  url(if($mi-sass-asset-helper, mi-font-path('#{$mi-font-path}/material-icons.svg#material'), '#{$mi-font-path}/material-icons.svg#material')) format('svg');
+}
+
+.mi {
+  font-family: 'Material Icons';
+  font-weight: 400;
+}

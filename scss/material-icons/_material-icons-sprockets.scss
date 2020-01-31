@@ -1,0 +1,5 @@
+@function mi-font-path($path) {
+  @return font-path($path);
+}
+
+$mi-sass-asset-helper: true;
